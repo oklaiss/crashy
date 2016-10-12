@@ -2,9 +2,9 @@ defmodule Crashy do
   use Application
 
   # Uncomment just one of the following three values
-  # @strategy :one_for_one
-   @strategy :one_for_all
-  #@strategy :rest_for_one
+  @strategy :one_for_one
+   # @strategy :one_for_all
+  # @strategy :rest_for_one
 
   # Uncomment just one of the following three values
   @restart :permanent

@@ -44,7 +44,7 @@ and their numbers
 
 | restart   | call  | one_for_one | one_for_all | rest_for_one |
 | --------- | ----- | ----------- | ----------- | ------------ |
-| permanent | exit  |  -2   +2    |  -123 +123  |  -23 +23     |
+| permanent | exit  |  -2   +2    |  -231 +123  |  -23 +23     |
 |           | crash |  -2   +2    |  -231 +123  |  -23 +23     |
 |           |       |             |             |              |
 | transient | exit  |  -2         |  -2         |  -2          |
